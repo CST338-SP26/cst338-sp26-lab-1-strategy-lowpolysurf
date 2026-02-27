@@ -6,7 +6,7 @@ public abstract class Monster {
     private int maxHp;
     private HashMap<String, Integer> items;
 
-    public Monster(int xp, int maxHp, HashMap<String,Integer> items){
+    public Monster(int maxHp, int xp, HashMap<String,Integer> items){
         this.xp = xp;
         this.maxHp = maxHp;
         this.hp = this.maxHp;
