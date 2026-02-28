@@ -8,6 +8,6 @@ public class Imp extends Monster{
 
     @Override
     public String toString(){
-        return "";
+        return "Imp has : hp " + getHp() + "/" + getMaxHp();
     }
 }

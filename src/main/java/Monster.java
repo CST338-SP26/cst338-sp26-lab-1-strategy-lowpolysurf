@@ -50,6 +50,6 @@ public abstract class Monster {
     }
     @Override
     public String toString(){
-        return "";
+        return "Monster has : hp " + getHp() + "/" + getMaxHp();
     }
 }

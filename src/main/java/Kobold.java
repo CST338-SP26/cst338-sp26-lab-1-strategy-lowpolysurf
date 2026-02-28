@@ -8,6 +8,6 @@ public class Kobold extends Monster{
 
     @Override
     public String toString(){
-        return "";
+        return "Kobold has : hp " + getHp() + "/" + getMaxHp();
     }
 }
